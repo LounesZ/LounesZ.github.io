@@ -1,0 +1,70 @@
+
+/* HEADER */
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.pic img {
+    width: 150px;
+    height: 200px;
+}
+
+.info {
+    display: flex;
+    color: red;
+    font-size: 20px;
+    flex-direction: column;
+}
+.np {
+    margin-bottom: 35px;
+}
+/* LIEN */
+.principal{
+    display: flex;
+    flex-direction: row;
+}
+.information{
+    display: flex;
+    color: red;
+    width: 100%;
+    font-size: 20px;
+    flex-direction: column;
+}
+.competence{
+    background-color: blue;
+    width: 100%;
+}
+.experiences{
+    background-color: blueviolet;
+    width: 100%;
+}
+.lien{
+        display: flex;
+        width: 100%;
+        font-size: 15px;
+        margin: 10px;
+        flex-direction: column;
+}
+legend{
+    font-size: 30px;
+    color: #000;
+    font-weight: bold;
+}
+.lien li a{
+    list-style: none;
+    color: #000;
+}
+.cont{
+    border: 5px solid #000;
+}
+.comp{
+    border: 5px solid #000;
+    background-color: #80acf2 ;
+    color: #000;
+}
+.exp{
+    border: 5px solid #000;
+    color: #fff;
+    background-color:  #bef17f ;
+}
