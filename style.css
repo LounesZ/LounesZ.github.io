@@ -14,10 +14,12 @@ header{
     display: flex;
     color: red;
     font-size: 20px;
-    flex-direction: column;
 }
 .np {
     margin-bottom: 35px;
+}
+.adresse{
+    font-style: italic;
 }
 /* LIEN */
 .principal{
